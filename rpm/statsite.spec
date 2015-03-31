@@ -67,6 +67,7 @@ exit 0
 %attr(755, root, root) /usr/libexec/statsite/sinks/gmetric.py
 %attr(755, root, root) /usr/libexec/statsite/sinks/influxdb.py
 %attr(755, root, root) /usr/libexec/statsite/sinks/graphite.py
+%attr(755, root, root) /usr/libexec/statsite/sinks/cloudwatch.sh
 
 %changelog
 * Fri Jul 18 2014 Gary Richardson <gary.richardson@gmail.com>

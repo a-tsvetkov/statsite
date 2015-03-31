@@ -1,4 +1,4 @@
-RPMBUILDROOT=./rpm-build
+RPMBUILDROOT=/home/vagrant/rpmbuild
 
 build:
 	scons statsite
