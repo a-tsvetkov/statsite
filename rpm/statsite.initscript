@@ -66,7 +66,9 @@ case "$1" in
         RETVAL=$?
         ;;
     restart)
-        configtest -q || exit $RETVAL
+	if hash configtest 2>/dev/null; then
+            configtest -q || exit $RETVAL
+	fi
         stop
         start
         ;;

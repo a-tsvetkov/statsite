@@ -1,7 +1,7 @@
 [statsite]
 port=8125
 udp_port=8125
-log_level=DEBUG
+log_level=INFO
 flush_interval=1
 timer_eps=0.01
 set_eps=0.02
